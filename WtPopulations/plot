@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Plotting ...
+cd DecCapHighRe/Plots
+gnuplot *.gnu
+cd ../..
+
+cd DecCapNoRe/Plots
+gnuplot *.gnu
+cd ../..
+
+cd UnlimCapHighRe/Plots
+gnuplot *.gnu
+cd ../..
+
+cd UnlimCapNoRe/Plots
+gnuplot *.gnu
+cd ../..
