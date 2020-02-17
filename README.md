@@ -13,7 +13,7 @@ The most important functions for simulating single-cells are:
 The most important functions for creating populations are:
 
 **initializeEmptyPopulation** creates a population structure with population parameters.<br/>
-**setResources** sets the start value for the resources (currently the resources do not change over time, but a constant needs to be set in the beginning).<br/>
+**setResources** sets the start value for the resources (currently the resources do not change over time, but a constant should be set in the beginning).<br/>
 **addCell** adds a cell with certain initial conditions to a population.<br/>
 **evolvePopulation** solves the population model that grows in size with each cell division until a certain time point.<br/>
 **evolveUncoupledPopulation** solves the population model and creates the lineage until a certain generation.<br/>
