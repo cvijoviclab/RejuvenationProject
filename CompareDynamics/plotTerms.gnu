@@ -4,7 +4,6 @@
 
 
 # filename
-    file = "repairTerms.txt"
     pic1 = "repairTerms.eps"
     pic2 = "repairTermsReal.eps"
     pic3 = "repairTermsReal_noRe.eps"
