@@ -8,11 +8,13 @@ population.jl (Julia file, https://julialang.org) is the main file that includes
 
 The most important functions for simulating single-cells are:
 
+<sub><sup>
 > **damageAccumulation** defines the model.<br/><br/>
 > **division** defines the distribution of proteins between mother and daughter.<br/><br/>
 > **retention** defines the retention factor, potentially dynamically.<br/><br/>
 > **singleCell** solves the single-cell model for given parameters and initial conditions.
-
+<sub><sup>
+  
 The most important functions for creating populations are:
 
 > **initializeEmptyPopulation** creates a population structure with population parameters.<br/><br/>
