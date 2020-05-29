@@ -23,10 +23,10 @@ The most important functions for creating populations are:
 > **analyse** produces statistics of cell properties in populations that were created by the evolveUncoupledPopulation function.
 
 ## Examples
-In all folders there are examples how to use the model. Plots are created with gnuplot (http://www.gnuplot.info).
+In all folders there are examples how to use the model. Results are typically saved in txt files and visualised with gnuplot (gnu file, http://www.gnuplot.info).
 
 > **CompareDynamics** shows how to generate single-cell dynamics with manually set parameters (compareDynamics.jl).<br/>
-> **WtSurface** shows how to find parameters for cells with a specific replicative lifespan.<br/>
+> **WtSurface** shows how to find parameters for cells with a specific replicative lifespan (wtSurface.jl).<br/>
 > **RetentionPopulation** shows how to find parameters and generate populations for different retention factors and analyse the population-based behaviour. <br/>
 > **WtPopulations** shows how to generate cell lineages up to a few generations with focus on all individual cells, and how to use the data for analysis and plotting.<br/>
 > **GrowthRate** shows an example of solving the dynamically growing system until a certain time point.
