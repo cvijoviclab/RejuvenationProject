@@ -1,5 +1,8 @@
 # RejuvenationProject
 
+## Publication
+These files and simulations are the basis for "The Synergy of Damage Repair and Retention Promotes Rejuvenation and Prolongs Healthy Lifespans in Cell Lineages", Schnitzer et al., 2020 (https://doi.org/10.1101/2020.03.24.005116). 
+
 ## Model
 population.jl (Julia file, https://julialang.org) is the main file that includes all functions needed to simulate populations.
 
@@ -27,4 +30,7 @@ In all folders there are examples how to use the model. Plots are created with g
 > **RetentionPopulation** shows how to find parameters and generate populations for different retention factors and analyse the population-based behaviour. <br/>
 > **WtPopulations** shows how to generate cell lineages up to a few generations with focus on all individual cells, and how to use the data for analysis and plotting.<br/>
 > **GrowthRate** shows an example of solving the dynamically growing system until a certain time point.
+
+## Data of Publication Figures
+The folder **Data** includes the data underlying the figures in the publication.
 
