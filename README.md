@@ -32,5 +32,5 @@ In all folders there are examples how to use the model. Results are typically sa
 > **GrowthRate** shows an example of solving the dynamically growing system until a certain time point (growthRate.jl). In this particular case the function uses a file that defines the distribution of the initial conditions of the population's founder cells, which could have also been defined manually. Again the four cases UnlimCap and DecCap in combination with HighRe and NoRe are used.
 
 ## Data of Publication Figures
-The folder **PublicationData** includes the data underlying the figures in the publication in txt files as well as Julia functions that generate the data (note that there is stochasticity in the model, so that it is not possible to generate exactly the same data set used in the publication again, however the conclusions stay the same).
+The folder **PublicationData** includes the data underlying the figures in the publication in txt files as well as Julia functions that generate the data (note that since there is stochasticity in the model, it is not possible to generate exactly the same data set used in the publication again, however the conclusions stay the same).
 
