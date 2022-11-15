@@ -1,7 +1,7 @@
 # RejuvenationProject
 
 ## Publication
-These files and simulations are the basis for "The Synergy of Damage Repair and Retention Promotes Rejuvenation and Prolongs Healthy Lifespans in Cell Lineages", Schnitzer et al., 2020 (https://doi.org/10.1101/2020.03.24.005116). 
+These files and simulations are part of the following publication: B. Schnitzer, J. Borgqvist, M.Cvijovic The Synergy of Damage Repair and Retention Promotes Rejuvenation and Prolongs Healthy Lifespans in Cell Lineages. (2020) PLoS Comput Biol 16(10):e1008314 https://doi.org/10.1371/journal.pcbi.1008314
 
 ## Model
 population.jl (Julia file, https://julialang.org) is the main file that includes all functions needed to simulate populations.
